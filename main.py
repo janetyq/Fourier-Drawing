@@ -6,6 +6,5 @@ if __name__ == "__main__":
     app = QApplication(sys.argv)
     window = FourierDrawingApp()
     window.show()
-    app.exec()
-    sys.exit(app.exec_())
+    sys.exit(app.exec())
     
